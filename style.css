@@ -1,0 +1,148 @@
+body {
+    background-color: #444444;
+    background-image: url('toppingLogo.png');
+    background-repeat: no-repeat;
+    background-size: 42vw;
+    color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 2px #222;
+}
+
+.box {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#title {
+    font-weight: bold;
+    font-family: Palatino Linotype;
+    color: #ff00cf;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.newJeff {
+    display: block;
+    width: 140px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #ddd;
+    cursor: pointer;
+    background-color: #a98;
+    padding: 4px;
+    border: #222222 1px solid;
+    border-radius: .15em;
+    margin: 0 auto;
+    transition: background-color 300ms linear;
+    text-shadow: 0px 0px 2px #222;
+}
+.newJeff:hover {
+    background-color: #ff00cf;
+}
+
+#scoreTitle {
+    width: 100%;
+    text-align: center;
+}
+
+#gallows {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#img {
+    transform: scale(1.5);
+    transform-origin: 0 0;
+    height: 340px;
+    width: 200px;
+}
+
+.msgScript {
+    font: italic 40px serif;
+}
+
+.loserRed {
+    fill: crimson;
+}
+
+.winnerGreen {
+    fill: rgb(29, 202, 81);
+}
+
+#controlBar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#status {
+    width: 40%;
+}
+
+#buttons {
+    width: 60%;
+    z-index: 27;
+}
+
+.jeffRows {
+    text-align: center;
+}
+
+button {
+    width: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #ddd;
+    background-color: #a98;
+    padding: 4px;
+    border: #222222 1px solid;
+    border-radius: .15em;
+    margin: 0 auto;
+    transition: background-color 300ms linear;
+    text-shadow: 0px 0px 2px #222;
+
+}
+.red:hover {
+    background-color: crimson;
+}
+
+.orange:hover {
+    background-color: coral;
+}
+
+.yellow:hover {
+    background-color: rgb(255, 234, 113);
+}
+
+.green:hover {
+    background-color: rgb(29, 202, 81);
+}
+
+.blue:hover {
+    background-color: rgb(60, 122, 255);
+}
+
+.purple:hover {
+    background-color: rgb(122, 81, 163);
+}
+
+.pink:hover {
+    background-color: violet;
+}
+
+#word {
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Courier New';
+    letter-spacing: .3em;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#incorrectGuesses {
+    color: crimson;
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-size: x-large;
+}
