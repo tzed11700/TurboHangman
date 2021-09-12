@@ -12,6 +12,7 @@ let words = [
     'Bourkadactyl',
     'Gesicht',
     'Chachi',
+    'Peermafrost',
     'Cybersaurus',
     'Slushie',
     'Turbotangos',
@@ -26,7 +27,7 @@ let words = [
     'Toast',
     'Lincoln',
     'Anvrar',
-    'Halibred',
+    'Halibread',
     'LemonLions',
     'Patti Mayonnaise',
     'Zomosis',
@@ -104,5 +105,5 @@ let words = [
     'Magikarp',
     'Haunter',
     'Memes',
-
+    'Bad Dragon',
     ]
