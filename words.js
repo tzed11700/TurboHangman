@@ -106,4 +106,5 @@ let words = [
     'Haunter',
     'Memes',
     'Bad Dragon',
+    'Team Spirit',
     ]
